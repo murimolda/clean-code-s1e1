@@ -5,11 +5,11 @@ ul {
 }
 
 li, h3 {
-    list-style:none;
+    list-style: none;
 }
 
 input, button{
-    outline:none;
+    outline: none;
 }
 
 /* Basic Style */
@@ -31,7 +31,7 @@ input, button{
 }
 
 .header .more-info-link {
-  font-family: fantasy, cursive;
+  font-family: Lato, cursive;
 }
 
 @media (max-width:768px) {
@@ -51,7 +51,7 @@ input, button{
 .task {
   width: 56%;
   display: inline-block;
-  flex-grow: 1
+  flex-grow: 1;
 }
 
 .task-wrapper {
@@ -137,7 +137,7 @@ input, button{
 }
 
 .list-item > .task-input {
-  width: 226px
+  width: 226px;
 }
 
 .delete-button img {
@@ -152,13 +152,13 @@ input, button{
 
 /* Completed */
 .list#complete > .task-label {
-  text-decoration: line-through
+  text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
 .list-item > .task-input {
-  display: none
+  display: none;
 }
 
 .list-item.edit > .task-input {
