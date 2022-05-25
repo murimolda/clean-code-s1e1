@@ -41,19 +41,19 @@ ul {
 li, h3 {
   list-style:none;
 }
-input,button{
+input, button{
   outline:none;
 }
-.delete-button {
+.button {
   background: none;
-  border: 0px;
+  border: 0;
   color: #888;
   font-size: 15px;
   width: 60px;
   font-family: Lato, sans-serif;
   cursor: pointer;
 }
-.delete-button:hover {
+.button:hover {
   color: #3a3A3a;
 }
 /* Heading */
@@ -107,16 +107,16 @@ input,button{
   vertical-align: middle;
 }
 
-.list-item > input[type="checkbox"] {
+.list-item > .checkbox-input {
   margin: 0 10px;
 }
-.list-item > label {
+.list-item > .task-label {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
-.list-item >  .task-input {
+.list-item > .task-input {
   width: 226px
 }
 .delete-button img {
@@ -129,21 +129,21 @@ input,button{
 }
 
 /* Completed */
-.list#complete label {
+.list#complete > .task-label {
   text-decoration: line-through
   color: #888;
 }
 
 /* Edit Task */
-.list > .list-item > .task-input {
+.list-item > .task-input {
   display:none
 }
 
-.list > .list-item.edit > .task-input {
+.list-item.edit > .task-input {
   display:inline-block;
   width:224px
 }
 
-.list > .list-item.edit > label {
+.list-item.edit > .task-label {
   display:none;
 }
