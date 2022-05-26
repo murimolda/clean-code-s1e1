@@ -134,13 +134,13 @@
   color: #333;
 }
 
-.task__delete-button img {
+.delete-button__image {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
 
-.task__delete-button img:hover {
+.delete-button__image:hover {
   transform: rotateZ(0);
 }
 
